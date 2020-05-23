@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public />
+    <!--common-->
+    <dimen name="xxxsmall">2dp</dimen>
+    <dimen name="xxsmall">4dp</dimen>
+    <dimen name="xsmall">8dp</dimen>
+    <dimen name="small">12dp</dimen>
+    <dimen name="medium">16dp</dimen>
+    <dimen name="large">24dp</dimen>
+    <dimen name="xlarge">36dp</dimen>
+    <dimen name="xxlarge">48dp</dimen>
+    <dimen name="xxxlarge">72dp</dimen>
+
+    <dimen name="ts_xxxlarge">24sp</dimen>
+    <dimen name="ts_xxlarge">20sp</dimen>
+    <dimen name="ts_xlarge">18sp</dimen>
+    <dimen name="ts_large">16sp</dimen>
+    <dimen name="ts_medium">14sp</dimen>
+    <dimen name="ts_small">13sp</dimen>
+    <dimen name="ts_xsmall">12sp</dimen>
+    <dimen name="ts_xxsmall">10sp</dimen>
+
+    <dimen name="ib_size">40dp</dimen>
+    <dimen name="minimized_height">48dp</dimen>
+    <dimen name="file_content_max_height">150dp</dimen>
+
+</resources>

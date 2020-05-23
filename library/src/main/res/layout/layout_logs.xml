@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/ibMinimize"
+            android:layout_width="@dimen/ib_size"
+            android:layout_height="@dimen/ib_size"
+            android:src="@drawable/ic_minimize"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <ImageButton
+            android:id="@+id/ibLogs"
+            android:layout_width="@dimen/ib_size"
+            android:layout_height="@dimen/ib_size"
+            android:layout_marginStart="@dimen/small"
+            android:src="@drawable/ic_logs"
+            app:layout_constraintStart_toEndOf="@id/ibMinimize"
+            app:layout_constraintTop_toTopOf="parent" />
+        <ImageButton
+            android:id="@+id/ibFiles"
+            android:layout_width="@dimen/ib_size"
+            android:layout_height="@dimen/ib_size"
+            android:layout_marginStart="@dimen/small"
+            android:src="@drawable/ic_files"
+            app:layout_constraintStart_toEndOf="@id/ibLogs"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/ibAppSet"
+            android:layout_width="@dimen/ib_size"
+            android:layout_height="@dimen/ib_size"
+            android:layout_marginStart="@dimen/small"
+            android:src="@drawable/ic_android"
+            app:layout_constraintStart_toEndOf="@id/ibFiles"
+            app:layout_constraintTop_toTopOf="parent" />
+        <ImageButton
+            android:id="@+id/ibClose"
+            android:layout_width="@dimen/ib_size"
+            android:layout_height="@dimen/ib_size"
+            android:src="@drawable/ic_close"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ibClose" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
